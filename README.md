@@ -103,7 +103,7 @@ investigation given the capture's Remcos label.
 **Limitation:** The screenshots do not expose decrypted commands or identify
 the process responsible for the connection. C2 activity is not confirmed.
 
-![Wireshark traffic overview](../screenshots/01-wireshark-traffic-overview.png)
+![Wireshark traffic overview](/screenshots/01-wireshark-traffic-overview.png)
 
 ### 4.3 geoplugin DNS response
 
@@ -120,7 +120,7 @@ Packet 25 shows:
 The DNS response alone does not establish that the host contacted the service,
 retrieved location information, or used it for malicious activity.
 
-![geoplugin DNS response](../screenshots/02-dns-geoplugin-response.png)
+![geoplugin DNS response](/screenshots/02-dns-geoplugin-response.png)
 
 ## 5. Threat Intelligence Enrichment
 
@@ -146,9 +146,9 @@ domain-based request that might have occurred in the capture.
 Vendor detections are contextual evidence, not proof that this address
 served Remcos C2 in this investigation.
 
-![VirusTotal URL search](../screenshots/03-virustotal-url-search.png)
+![VirusTotal URL search](/screenshots/03-virustotal-url-search.png)
 
-![VirusTotal URL results](../screenshots/04-virustotal-url-results.png)
+![VirusTotal URL results](/screenshots/04-virustotal-url-results.png)
 
 ### 5.2 AbuseIPDB
 
@@ -174,13 +174,13 @@ address is safe.
 The VirusTotal and AbuseIPDB observations measure different things and
 should not be combined into a definitive malware verdict.
 
-![AbuseIPDB overview](../screenshots/05-abuseipdb-overview.png)
+![AbuseIPDB overview](/screenshots/05-abuseipdb-overview.png)
 
-![AbuseIPDB report history](../screenshots/06-abuseipdb-report-history.png)
+![AbuseIPDB report history](/screenshots/06-abuseipdb-report-history.png)
 
-![AbuseIPDB additional reports](../screenshots/07-abuseipdb-additional-reports.png)
+![AbuseIPDB additional reports](/screenshots/07-abuseipdb-additional-reports.png)
 
-![AbuseIPDB report summary](../screenshots/08-abuseipdb-report-summary.png)
+![AbuseIPDB report summary](/screenshots/08-abuseipdb-report-summary.png)
 
 ## 6. Observed Indicators and Investigation Leads
 
